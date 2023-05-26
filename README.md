@@ -1,4 +1,4 @@
-# Random Quote Generator
+# Cita diaria
 
 Este proyecto es un generador de citas aleatorias que se construyó con Node.js, Express.js y TypeScript. Cada vez que se presiona el botón "Nueva cita", se muestra una nueva cita en la página.
 

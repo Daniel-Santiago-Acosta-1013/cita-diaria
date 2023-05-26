@@ -7,15 +7,19 @@
 </head>
 
 <body>
-  <h1>Random Quote Generator</h1>
-  <blockquote>
-    <p id="quote-text">
-      <%= quote.text %>
-    </p>
-    <footer id="quote-author">- <%= quote.author %>
-    </footer>
-  </blockquote>
-  <button id="new-quote-button">New Quote</button>
+  <div class="container">
+    <h1 class="title">Cita diaria</h1>
+    <div class="quote-box">
+      <blockquote class="quote-text">
+        <p id="quote-text">
+          <%= quote.text %>
+        </p>
+        <footer id="quote-author">- <%= quote.author %>
+        </footer>
+      </blockquote>
+    </div>
+    <button class="new-quote-button" id="new-quote-button">Nueva cita</button>
+  </div>
 
   <script src="/js/bundle.js"></script>
 

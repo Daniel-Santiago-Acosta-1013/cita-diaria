@@ -18,35 +18,35 @@ Este proyecto es un generador de citas aleatorias que se construyó con Node.js,
 
 1. Clonar el repositorio:
 
-\```bash
+```bash
 git clone https://github.com/your-username/random-quote-generator.git
-\```
+```
 
 2. Navegar al directorio del proyecto:
 
-\```bash
+```bash
 cd random-quote-generator
-\```
+```
 
 3. Instalar las dependencias:
 
-\```bash
+```bash
 npm install
-\```
+```
 
 ## Uso
 
 1. Compilar el proyecto con TypeScript:
 
-\```bash
+```bash
 npm run build
-\```
+```
 
 2. Iniciar el servidor:
 
-\```bash
+```bash
 npm start
-\```
+```
 
 3. Abrir un navegador y visitar `http://localhost:3055/quotes` para ver el generador de citas en acción.
 

@@ -8,4 +8,9 @@ router.get('/', (req, res) => {
   res.render('index', { quote });
 });
 
+router.get('/data', (req, res) => {
+  const quote = getQuote();
+  res.json(quote);
+});
+
 export default router;
